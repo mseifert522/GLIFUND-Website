@@ -7,7 +7,7 @@ import { MapPin, Mail, Phone, Clock } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const DETROIT_HERO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480921173/BsGhCQV5Nup6wYyZYZFUG7/hero-skyline-49YaQctim7edbra9QfxGNT.webp";
+const DETROIT_HERO = "/assets/hero-skyline.webp";
 
 export default function Contact() {
   const [submitted, setSubmitted] = useState(false);

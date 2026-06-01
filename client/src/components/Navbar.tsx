@@ -84,7 +84,7 @@ export default function Navbar() {
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center gap-3">
             <a
-              href="https://glinvestmentfund.com"
+              href="https://glifportal.com"
               target="_blank"
               rel="noopener noreferrer"
               style={{
@@ -151,7 +151,7 @@ export default function Navbar() {
             ))}
             <div className="flex flex-col gap-3 pt-2">
               <a
-                href="https://glinvestmentfund.com"
+                href="https://glifportal.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost-white"

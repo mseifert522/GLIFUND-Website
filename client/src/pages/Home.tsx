@@ -8,10 +8,10 @@ import { ArrowRight, ChevronDown, ChevronUp, Shield, TrendingUp, Award, Clock } 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const DETROIT_HERO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480921173/BsGhCQV5Nup6wYyZYZFUG7/hero-skyline-49YaQctim7edbra9QfxGNT.webp";
-const BOARDROOM = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480921173/BsGhCQV5Nup6wYyZYZFUG7/about-boardroom_ede388e9.jpg";
-const HANDSHAKE = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480921173/BsGhCQV5Nup6wYyZYZFUG7/team-handshake_04d574cd.jpg";
-const ABSTRACT = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480921173/BsGhCQV5Nup6wYyZYZFUG7/offerings-abstract_78dab461.jpg";
+const DETROIT_HERO = "/assets/hero-skyline.webp";
+const BOARDROOM = "/assets/about-boardroom.jpg";
+const HANDSHAKE = "/assets/team-handshake.jpg";
+const ABSTRACT = "/assets/offerings-abstract.jpg";
 
 function useCountUp(target: number, duration = 1800, start = false) {
   const [count, setCount] = useState(0);

@@ -8,8 +8,8 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-const DETROIT_HERO = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480921173/BsGhCQV5Nup6wYyZYZFUG7/hero-skyline-49YaQctim7edbra9QfxGNT.webp";
-const ABSTRACT = "https://d2xsxph8kpxj0f.cloudfront.net/310519663480921173/BsGhCQV5Nup6wYyZYZFUG7/offerings-abstract_78dab461.jpg";
+const DETROIT_HERO = "/assets/hero-skyline.webp";
+const ABSTRACT = "/assets/offerings-abstract.jpg";
 
 const bondTerms = [
   { months: 12, label: "Short-Term", rate: "9.5%", highlight: false },
