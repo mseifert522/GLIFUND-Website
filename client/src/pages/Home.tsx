@@ -9,9 +9,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const DETROIT_HERO = "/assets/hero-skyline.webp";
-const BOARDROOM = "/assets/about-boardroom.jpg";
-const HANDSHAKE = "/assets/team-handshake.jpg";
-const ABSTRACT = "/assets/offerings-abstract.jpg";
+const BOARDROOM = "/assets/about-boardroom.webp";
+const HANDSHAKE = "/assets/team-handshake.webp";
+const ABSTRACT = "/assets/offerings-abstract.webp";
 
 function useCountUp(target: number, duration = 1800, start = false) {
   const [count, setCount] = useState(0);

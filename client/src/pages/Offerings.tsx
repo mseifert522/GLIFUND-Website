@@ -9,7 +9,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const DETROIT_HERO = "/assets/hero-skyline.webp";
-const ABSTRACT = "/assets/offerings-abstract.jpg";
+const ABSTRACT = "/assets/offerings-abstract.webp";
 
 const bondTerms = [
   { months: 12, label: "Short-Term", rate: "9.5%", highlight: false },
